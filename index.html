@@ -1,89 +1,38 @@
-      <!-- Show static HTML/CSS as a placeholder in case js is not enabled - javascript include will override this if things work -->
       <style type="text/css" media="screen">
-  .gr_custom_container_1758145605 {
-    /* customize your Goodreads widget container here*/
-    border: 2px solid gray;
-    border-radius:10px;
-    padding: 10px 5px 10px 5px;
-    background-color: transparent;
-    color: #f0efed;
-    width: 300px
-  }
-  .gr_custom_header_1758145605 {
-    /* customize your Goodreads header here*/
-    border-bottom: 1px solid gray;
-    width: 100%;
-    margin-bottom: 5px;
-    text-align: center;
-    font-size: 120%
-  }
-  .gr_custom_each_container_1758145605 {
-    /* customize each individual book container here */
-    width: 100%;
-    clear: both;
-    margin-bottom: 10px;
-    overflow: auto;
-    padding-bottom: 4px;
-    border-bottom: 1px solid #aaa;
-  }
-  .gr_custom_book_container_1758145605 {
-    /* customize your book covers here */
-    overflow: hidden;
-    height: 60px;
-      float: left;
-      margin-right: 4px;
-      width: 39px;
-  }
-  .gr_custom_author_1758145605 {
-    /* customize your author names here */
-    font-size: 10px;
-  }
-  .gr_custom_tags_1758145605 {
-    /* customize your tags here */
-    font-size: 10px;
-    color: gray;
-  }
-  .gr_custom_rating_1758145605 {
-    /* customize your rating stars here */
-    float: right;
-  }
-</style>
+        .gr_grid_container {
+          /* customize grid container div here. eg: width: 500px; */
+        }
 
-      <div id="gr_custom_widget_1758145605">
-          <div class="gr_custom_container_1758145605">
-    <h2 class="gr_custom_header_1758145605">
-    <a style="text-decoration: none;" rel="nofollow" href="https://www.goodreads.com/review/list/184663340-lauren?shelf=currently-reading&amp;utm_medium=api&amp;utm_source=custom_widget">Currently-reading</a>
-    </h2>
-      <div class="gr_custom_each_container_1758145605">
-          <div class="gr_custom_book_container_1758145605">
-            <a title="Perfume: The Story of a Murderer" rel="nofollow" href="https://www.goodreads.com/review/show/7095048858?utm_medium=api&amp;utm_source=custom_widget"><img alt="Perfume: The Story of a Murderer" border="0" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1409112276l/343._SY75_.jpg" /></a>
-          </div>
-          <div class="gr_custom_title_1758145605">
-            <a rel="nofollow" href="https://www.goodreads.com/review/show/7095048858?utm_medium=api&amp;utm_source=custom_widget">Perfume: The Story of a Murderer</a>
-          </div>
-          <div class="gr_custom_author_1758145605">
-            by <a rel="nofollow" href="https://www.goodreads.com/author/show/39402.Patrick_S_skind">Patrick Süskind</a>
-          </div>
-      </div>
-      <div class="gr_custom_each_container_1758145605">
-          <div class="gr_custom_book_container_1758145605">
-            <a title="The Jersey Shore Thrill Killer: Richard Biegenwald (True Crime)" rel="nofollow" href="https://www.goodreads.com/review/show/7901911018?utm_medium=api&amp;utm_source=custom_widget"><img alt="The Jersey Shore Thrill Killer: Richard Biegenwald" border="0" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1415589497l/22789662._SX50_.jpg" /></a>
-          </div>
-          <div class="gr_custom_title_1758145605">
-            <a rel="nofollow" href="https://www.goodreads.com/review/show/7901911018?utm_medium=api&amp;utm_source=custom_widget">The Jersey Shore Thrill Killer: Richard Biegenwald</a>
-          </div>
-          <div class="gr_custom_author_1758145605">
-            by <a rel="nofollow" href="https://www.goodreads.com/author/show/3518958.John_E_O_Rourke">John E. O'Rourke</a>
-          </div>
-      </div>
-  <br style="clear: both"/>
-  <center>
-    <a rel="nofollow" href="https://www.goodreads.com/"><img alt="goodreads.com" style="border:0" src="https://s.gr-assets.com/images/widget/widget_logo.gif" /></a>
-  </center>
-  <noscript>
-    Share <a rel="nofollow" href="https://www.goodreads.com/">book reviews</a> and ratings with Lauren, and even join a <a rel="nofollow" href="https://www.goodreads.com/group">book club</a> on Goodreads.
-  </noscript>
+        .gr_grid_book_container {
+          /* customize book cover container div here */
+          float: left;
+          width: 98px;
+          height: 160px;
+          padding: 0px 0px;
+          overflow: hidden;
+        }
+      </style>
+      <div id="gr_grid_widget_1758146122">
+        <!-- Show static html as a placeholder in case js is not enabled - javascript include will override this if things work -->
+          <div class="gr_grid_container">
+    <div class="gr_grid_book_container"><a title="The Wasp Factory" rel="nofollow" href="https://www.goodreads.com/book/show/567678.The_Wasp_Factory"><img alt="The Wasp Factory" border="0" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1434940562l/567678._SX98_.jpg" /></a></div>
+    <div class="gr_grid_book_container"><a title="Coraline" rel="nofollow" href="https://www.goodreads.com/book/show/589836.Coraline"><img alt="Coraline" border="0" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1493497528l/589836._SX98_.jpg" /></a></div>
+    <div class="gr_grid_book_container"><a title="Tender Is the Flesh" rel="nofollow" href="https://www.goodreads.com/book/show/49090884-tender-is-the-flesh"><img alt="Tender Is the Flesh" border="0" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1594563107l/49090884._SX98_.jpg" /></a></div>
+    <div class="gr_grid_book_container"><a title="The Great Gatsby" rel="nofollow" href="https://www.goodreads.com/book/show/4671.The_Great_Gatsby"><img alt="The Great Gatsby" border="0" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1738790966l/4671._SX98_.jpg" /></a></div>
+    <div class="gr_grid_book_container"><a title="Pet Sematary" rel="nofollow" href="https://www.goodreads.com/book/show/33124137-pet-sematary"><img alt="Pet Sematary" border="0" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1480069533l/33124137._SY160_.jpg" /></a></div>
+    <div class="gr_grid_book_container"><a title="A Child Called "It" (Dave Pelzer, #1)" rel="nofollow" href="https://www.goodreads.com/book/show/60748.A_Child_Called_It_"><img alt="A Child Called "It"" border="0" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1438400434l/60748._SX98_.jpg" /></a></div>
+    <div class="gr_grid_book_container"><a title="I’m Glad My Mom Died" rel="nofollow" href="https://www.goodreads.com/book/show/59366244-i-m-glad-my-mom-died"><img alt="I’m Glad My Mom Died" border="0" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1649228846l/59366244._SX98_.jpg" /></a></div>
+    <div class="gr_grid_book_container"><a title="Sun Tzu: Art of War" rel="nofollow" href="https://www.goodreads.com/book/show/68041451-sun-tzu"><img alt="Sun Tzu: Art of War" border="0" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1671141162l/68041451._SX98_.jpg" /></a></div>
+    <div class="gr_grid_book_container"><a title="Allegedly" rel="nofollow" href="https://www.goodreads.com/book/show/30037870-allegedly"><img alt="Allegedly" border="0" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1476974718l/30037870._SX98_.jpg" /></a></div>
+    <div class="gr_grid_book_container"><a title="Banana Fish, Vol. 1" rel="nofollow" href="https://www.goodreads.com/book/show/1126326.Banana_Fish_Vol_1"><img alt="Banana Fish, Vol. 1" border="0" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1349062414l/1126326._SX98_.jpg" /></a></div>
+    <div class="gr_grid_book_container"><a title="It" rel="nofollow" href="https://www.goodreads.com/book/show/830502.It"><img alt="It" border="0" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1334416842l/830502._SY160_.jpg" /></a></div>
+    <div class="gr_grid_book_container"><a title="The Slenderman Mysteries: An Internet Urban Legend Comes to Life" rel="nofollow" href="https://www.goodreads.com/book/show/35090939-the-slenderman-mysteries"><img alt="The Slenderman Mysteries: An Internet Urban Legend Comes to Life" border="0" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1495803163l/35090939._SX98_.jpg" /></a></div>
+    <div class="gr_grid_book_container"><a title="Milk and honey" rel="nofollow" href="https://www.goodreads.com/book/show/23513349-milk-and-honey"><img alt="Milk and honey" border="0" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1491595510l/23513349._SX98_.jpg" /></a></div>
+    <div class="gr_grid_book_container"><a title="Took: A Ghost Story" rel="nofollow" href="https://www.goodreads.com/book/show/28114445-took"><img alt="Took: A Ghost Story" border="0" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1450236244l/28114445._SX98_.jpg" /></a></div>
+    <div class="gr_grid_book_container"><a title="Calendar of Crime: Stories" rel="nofollow" href="https://www.goodreads.com/book/show/26033921-calendar-of-crime"><img alt="Calendar of Crime: Stories" border="0" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1438637449l/26033921._SX98_.jpg" /></a></div>
+    <div class="gr_grid_book_container"><a title="The Giving Tree" rel="nofollow" href="https://www.goodreads.com/book/show/370493.The_Giving_Tree"><img alt="The Giving Tree" border="0" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1725807591l/370493._SX98_.jpg" /></a></div>
+  <noscript><br/>Share <a rel="nofollow" href="/">book reviews</a> and ratings with Lauren, and even join a <a rel="nofollow" href="/group">book club</a> on Goodreads.</noscript>
   </div>
 
       </div>
-      <script src="https://www.goodreads.com/review/custom_widget/184663340.Currently-reading?cover_position=left&cover_size=small&num_books=100&order=a&shelf=currently-reading&show_author=1&show_cover=1&show_rating=0&show_review=0&show_tags=0&show_title=1&sort=date_updated&widget_bg_color=FFFFFF&widget_bg_transparent=true&widget_border_width=2&widget_id=1758145605&widget_text_color=f0efed&widget_title_size=medium&widget_width=medium" type="text/javascript" charset="utf-8"></script>
+      <script src="https://www.goodreads.com/review/grid_widget/184663340.Lauren's%20bookshelf:%20read?cover_size=medium&hide_link=true&hide_title=true&num_books=20&order=d&shelf=read&sort=date_read&widget_id=1758146122" type="text/javascript" charset="utf-8"></script>
